@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(255, 221, 165);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    padding: 20px;
+}
+
+.site-id {
+    margin: 0px;
+}
+
+.main {
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    background-color: rgb(151, 219, 255);
+    position: fixed;
+    bottom: 0;    
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav-link {
+    padding: 15px;
+    background-color: rgb(181, 199, 225);
+    border-style: groove;
+    border-radius: 5px;
+}
